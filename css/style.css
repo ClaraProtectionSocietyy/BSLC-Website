@@ -1,0 +1,302 @@
+:root{
+    --primary: #19A89D;
+    --bg: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border : none;
+    text-decoration : none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color:  #D9D9D9;
+    min-height: 4000px;
+}
+/*Navbar*/
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    border-bottom: 1px solid #4a3724;
+    background-color: #fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    z-index:9999;
+}
+
+.navbar .navbar-logo{
+    font-size: 2rem;
+    font-weight: 400;
+    color:#000000;
+    font-style:normal;
+}
+
+.navbar img{
+    width:12vh;
+    height:10vh;
+}
+
+.navbar .navbar-logo span{
+    color: var(--primary);
+}
+
+.navbar .navbar-nav a{
+    color:#000000;
+    display:inline-block;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover{
+    color: var(--primary);
+}
+
+/*Profile*/
+.profile{
+min-height: 100vh;
+display: flex;
+align-items: center;
+position: relative;
+}
+
+.profile .row{
+    display: flex;  
+}
+
+.profile .row .role-img{
+    flex: 1 1 45rem;
+}
+
+.profile .row .role-img img{
+    width:100%;
+}
+
+.profile .row .content{
+    flex: 1 1 35rem;
+    padding: 0 2rem;
+}
+
+.profile .row .content h1{
+    font-size: 4.8rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.profile .row .content span{
+    margin-bottom: 1rem;
+    color:#19A89D;
+}
+
+.profile .row .content h2{
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.profile .row .content .cta{
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
+    color: #D9D9D9;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+}
+
+/*Role*/
+.profile, .role, .about, .contact{
+ padding: 10rem 8% 1.4rem;
+}
+
+.role .row{
+    display: flex;  
+}
+
+.role .row .role-img{
+    flex: 1 1 45rem;
+}
+
+.role .row .role-img img{
+    width:100%;
+}
+
+.role .row .content{
+    flex: 1 1 35rem;
+    padding: 0 2rem;
+}
+
+.role .row .content h1{
+    font-size:1.8rem ;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.role .row .content p{
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #000000;
+    text-align: justify;
+}
+
+/*About Us*/
+
+.about .row h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: #000000;
+}
+
+.about .row{
+    display: inline;  
+}
+
+.about .row .about-video video{
+    width:100%;
+}
+
+ /*ContactUS*/
+
+ .contact .row{
+    display: flex;  
+}
+
+.contact .row .contact-img{
+    flex: 1 1 45rem;
+}
+
+.contact .row .content{
+    flex: 1 1 35rem;
+    padding: 0 2rem;
+}
+
+.contact .row .content h2{
+    color: #000000;
+}
+
+.contact .row .content h2 span{
+    color: var(--primary);
+}
+
+ .contact .row .content label{
+    color: #000000;
+ }
+ .contact .row .content span{
+    color: rgb(214, 12, 12);
+ }
+
+ .contact .row form {
+    flex: 1 1 45rem;
+    padding: 5rem 3rem ;
+    text-align:justify;
+ }
+
+ .contact .row .content .contact-img img{
+    width: 100%;
+ }
+ 
+ .contact .row .content form #email,.contact .row .content form #msg{
+    display: flex;
+    margin-top: 1.5rem;
+    background-color: var(--bg);
+    border: 1px solid #eee;
+    padding-left: 2rem;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.8rem;
+    background: none;
+    color:#000000;
+}
+
+.contact .row form .btn {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color:#D9D9D9;
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+/*Footer*/
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    border-bottom: 1px solid #4a3724;
+    background-color: #000000;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right:0;
+    z-index:9999;
+}
+
+.footer .footer-nav a{
+    display:inline-block;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+}
+
+.footer .footer-logo{
+    font-size: 2rem;
+    font-weight: 300;
+    color:#fff;
+}
+
+.footer .footer-nav a{
+    display:inline-block;
+    margin: 0 0.8rem;
+}
+
+
+/*Media*/
+@media(max-width: 1366px){
+    html{
+        font-size: 75%;
+    }
+}
+@media(max-width: 768px){
+    html{
+        font-size: 62.5%;
+    }
+    .role .row{
+        flex-wrap: wrap;
+    }
+    .role .row .about-img{
+        height: 24rem;
+        object-fit:cover;
+        object-position: center;
+    }
+    .role .row .content{
+        padding: 0;
+    }
+    .role .row .content h3{
+        margin-top: 3.5rem;
+        font-size: 2rem;
+    }
+    .role .row .content p{
+        font-size: 1.6rem;
+    }
+    .contact .row {
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 450px){
+    html{
+        font-size: 55%;
+    }
+}

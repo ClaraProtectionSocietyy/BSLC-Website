@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSLC</title>
+
+<!--Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+<!--Icons-->
+<script src="https://unpkg.com/feather-icons"></script>
+
+<link rel="stylesheet" href="css/style.css">
+
+<!--Script-->
+<script src="./js/scriptform.js" defer></script>
+</head>
+<body>
+<!--Navbar start-->
+<nav class="navbar">
+    <img src="img/logo.png" alt="logoBSLC"><a href="#" class="navbar-logo">BINUS<span> STUDENT LEARNING COMMUNITY</span> </a>
+    <div class="navbar-nav">
+        <a href= https://new.bslc.or.id/ >Kunjungi Kami</a>
+        <a href=https://student-activity.binus.ac.id/bslc/ >Website SASC</a> 
+    </div>   
+</nav>
+<!--Navbar end-->
+
+<!--Profile start-->
+<section class="profile" id="profile">
+    <div class="row">
+    <main class="content">
+        <h1><span>Hola! </span> Binusian</h1>
+        <h2>Tertarik untuk bergabung menjadi Mentor atau Mentee BSLC?</h2>
+        <a href=https://join.bslc.or.id/ class="cta">Bergabung sekarang</a>
+    </main>
+    <main class="content">
+        <img src="img/profile.png" alt="profile">
+    </main> 
+    </div>  
+</section>
+<!--Profile end-->
+
+<!--Role Start-->
+<section id="rol" class="role">
+    <div class="row">
+        <div class="content">
+            <img src="img/mentor.png" alt="Ind" class="role-img">
+            <h1 class="role-title">Mentor</h1>
+            <p class="role-deskripsi">Mentoring merupakan program kegiatan belajar mengajar antara mentor dan mentee dari BSLC yang dilakukan dalam grup kecil berisikan 5-10
+            mahasiswa. Mentoring BSLC bisa dianggap sebagai bimbel belajar, mentoryang akan mengajar adalah kakak tingkat yang tentunya memiliki pengalaman mengenai materi kuliah semester awal yang akan diajarkan
+            kepada mahasiswa adek kelas semester 1/2. Mentee juga bisa mendapatkan tips dari mentor saat mengikuti kegiatan mentoring
+        </p>
+        </div>
+        <div class="content">
+            <img src="img/mentee.png" alt="US" class="role-img">
+            <h1 class="role-title">Mentee</h1>
+            <p class="role-deskripsi">Bagi kalian yang merasa ingin menambah pengetahuan atau mungkin merasa kurang paham dalam memahami materi saat berkuliah. Kalian
+                tenang saja karena BSLC membuka kesempatan bagi mahasiswa Binusian semester 1/2 unruk bergabung sebagai mentee. Nantinya kalian sebagai mentee akan diajar oleh mentor yang merupakan kakak kelas
+                kalian. Jadi tunggu apalagi, mari daftarkan diri kalian menjadi mentee BSLC
+            </p>
+        </div>
+    </div>
+</section>
+<!--Role End-->
+
+<!--About Us Start-->
+<section id="about" class="about">
+    <div class="row">
+        <h1>Kenali Lebih Lanjut Mengenai BSLC</h1>
+        <div class="about-video">
+            <video autoplay>
+                <source src="https://youtu.be/gx7rOvrjXzc" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+<!--About Us end-->
+
+<!--Contact Us Start-->
+<section id="contact" class="contact">  
+    <div class="row">
+        <div class="content">
+        <form id="formulir" action="#" method="post">
+            <h2>Ada pertanyaan, saran atau kritik yang ingin disampaikan ?</h2>
+            <h2>Kirimkan pesanmu <span>di sini</span></h2>
+            <div>
+                <label for="msg">Masukkan pesanmu secara singkat aja ya</label><br>
+                <span id="msgerror"></span>
+                <input type="text" name="" id="msg">
+            </div>   
+            <div>
+                <label for="email">Jangan lupa cantumkan emailmu</label><br>
+                <span id="emailerror"></span>
+                <input type="text" name="" id="email">
+            </div>    
+             <button type="submit" onclick="validasi(event)" class="btn">Kirim pesan sekarang</button>     
+         </form>  
+        </div>
+         <div class="content">
+         <img src="img/contact.png" alt="contact" class="contact-img">
+         </div>
+    </div>
+</section>
+<!--Contact Us End-->
+
+<!--Footer-->
+<nav class="footer">
+    <a href="#" class="footer-logo">Contact Us</a><br>
+        <div class="footer-nav">    
+            <a href="https://www.youtube.com/c/BinusStudentLearningCommunity" ><img src="img/youtube.svg" alt="youtube"></a> 
+            <a href="https://twitter.com/BSLC_BINUS" > <img src="img/twitter.svg" alt="twitter"></a>
+            <a href="https://www.linkedin.com/company/binus-student-learning-community/mycompany/" ><img src="img/linkedin.svg" alt="linkedin"></a> 
+            <a href="https://www.instagram.com/bslc_binus/?hl=en"  > <img src="img/instagram.svg" alt="instagram"></a>
+            <a href="https://www.facebook.com/BinusStudentLearningCommunity/" ><img src="img/facebook.svg" alt="facebook"></a> 
+        </div> 
+</nav>    
+<!--Footer-->
+
+<!--Icons-->
+<script>
+    feather.replace()
+  </script>
+</body>
+</html>7
